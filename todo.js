@@ -6,6 +6,10 @@ const TODOS_LS = "toDos";
 
 const toDos = [];
 
+function filterFn(toDo){
+    return toDo.id ===
+}
+
 function deleteToDo(event) {
   const btn = event.target;
   const li = btn.parentNode;
