@@ -1,11 +1,5 @@
 body {
-  background-color: peru;
-}
-
-h1 {
   color: #34495e;
-  transition: color 0.5s ease-in-out;
-  font-size: 150px;
 }
 
 .clicked {
@@ -14,4 +8,17 @@ h1 {
 
 .btn {
   cursor: pointer;
+}
+
+.form,
+.greetings {
+  display: none;
+}
+.showing {
+  display: block;
+}
+
+h1,
+h4 {
+  font-size: 150px;
 }
