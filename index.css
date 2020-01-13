@@ -1,0 +1,17 @@
+body {
+  background-color: peru;
+}
+
+h1 {
+  color: #34495e;
+  transition: color 0.5s ease-in-out;
+  font-size: 150px;
+}
+
+.clicked {
+  color: #7f8c8d;
+}
+
+.btn {
+  cursor: pointer;
+}
